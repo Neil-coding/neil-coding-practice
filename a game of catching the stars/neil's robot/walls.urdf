@@ -1,0 +1,28 @@
+
+<robot name="simple_cube">
+
+  <!-- Link for the cube -->
+  <link name="cube_link">
+    
+    <!-- Collision geometry: A simple box -->
+    <collision>
+      <geometry>
+        <box size="1 1 5"/>  <!-- Size of the cube (length x width x height) -->
+      </geometry>
+    </collision>
+
+    <!-- Visual geometry: A simple box -->
+    <visual>
+      <geometry>
+        <box size="1 1 5"/>  <!-- Size of the cube (length x width x height) -->
+      </geometry>
+      <material name="blue">
+        <color rgba="0 0 1 1"/>  <!-- Blue color for the cube -->
+      </material>
+    </visual>
+
+  </link>
+
+  <!-- The cube has no joints in this case, it's fixed in space -->
+
+</robot>

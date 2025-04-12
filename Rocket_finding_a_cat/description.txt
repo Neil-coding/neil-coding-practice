@@ -1,0 +1,3 @@
+A rocket is finding a cat. A cat is running from the police. 
+A man is trying to find the police. Police is trying to find a bad guy.
+make it in pygame

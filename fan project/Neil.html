@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <style>
+        h1 {
+            background-color: rgb(101, 67, 133);
+            color: aqua;
+            text-align: center;
+        }
+        div { 
+            text-align: center;
+        }
+
+        button {
+            background-color: rgb(30, 147, 94);
+            text-align: center;
+            font-size: 48px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            padding: 5%;
+            border-radius: 20%;
+        }
+
+
+    </style>
+
+   
+</head>
+
+<body>
+
+
+    <h1>   hi my name is neil      </h1>
+    <div>
+    <img id = "neil" src="fan.png" alt="">
+    <img id = "umair" src="fan.png" alt="">
+    <img id = "ting" src="fan.png" alt="">
+    </div>
+
+    <script>
+        function turn_on_fan(){
+            document.getElementById('neil').src = "https://media.tenor.com/n9AngRaEuU8AAAAM/fan-spinning.gif";
+            document.getElementById('umair').src = "https://media.tenor.com/n9AngRaEuU8AAAAM/fan-spinning.gif";
+            document.getElementById('ting').src = "https://media.tenor.com/n9AngRaEuU8AAAAM/fan-spinning.gif";
+        }
+
+        function turn_off_fan(){
+            document.getElementById('neil').src = "fan.png";
+            document.getElementById('umair').src = "fan.png";
+            document.getElementById('ting').src = "fan.png";
+        }
+    </script>
+    <div>
+    <button onclick="turn_on_fan()">hit me turn on</button>
+    <button onclick="turn_off_fan()">hit me turn off</button>
+    </div>
+
+    <h1>   hi my name is neil      </h1>
+
+</body>
+</html>
